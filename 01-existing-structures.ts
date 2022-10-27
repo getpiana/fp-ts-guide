@@ -20,7 +20,7 @@ describe('Existing TypeScript structures', () => {
 
     expect(double).toEqual([2, 4, 6]);
 
-    // Mapping a function a => b to the "map" operator:
+    // Mapping a function a => b with the "map" operator:
 
     const doubleFn: (x: number) => number = x => x * 2;
 
